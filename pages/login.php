@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
     $username = $_POST['username'];
     $password = $_POST['password'];
-
+//this is for the ummmmmmmmmm jo v a
     // Check user in database
     $sql = "SELECT * FROM users WHERE username='$username'";
     $result = $conn->query($sql);
@@ -31,6 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 <html>
 <head>
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../assets/style.css">
 </head>
 <body>
     <h2>Inventory System Login</h2>
